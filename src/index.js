@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/Reactbook15">
+  <BrowserRouter rbasename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>
 );
